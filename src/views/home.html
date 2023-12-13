@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/aef00d3210.js" crossorigin="anonymous"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="/img/MauGreen.png">
+        <!-- Estilos -->
+        <link href="/css/header.css" rel="stylesheet">
+        <link href="/css/footer.css" rel="stylesheet">
+        <title>Mauro Sanchez Camps</title>
+    </head>
+    <body>
+        <header>
+            <section id="headerTop">
+                <div class="figure-logo">
+                    <a href="/" class="logoIKA">
+                        <img src="/img/MauGreen.png"  alt="logo">
+                    </a>
+                </div>
+            </div>    
+            <section class="namesHeader">
+            <div class="nameMauroSanchez">
+                Mauro Sanchez Camps
+            </div>
+        
+            <div class="nameFullStack">
+                Developer Full Stack
+            </div>
+            <section>
+        
+               
+                <!-- <div class="search-header">
+                    <form action="/search" method="GET">
+                        <div class="search-bar">
+                            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                            <input placeholder="Buscar" type="search" class="input" name="search">
+                        </div>
+                    </form>
+                </div>     -->
+        
+        
+                <!-- <button id="lista-hamburguesa">
+                    <i class="fa-sharp fa-solid fa-bars lista-hamburguesa"> </i>
+                </button > -->
+        
+                <!-- <div id="content-navBar">
+                    <ul class="navBar">
+                        <% if (locals.isLogged && locals.userLogged.id_category===1) { %>  
+                        <li class="navBar-lista">
+                            <a href="/product/create">Aguante la birra</a>
+                        </li>
+                        <% } %> 
+                        <li class="navBar-lista">
+                            <a href="/product/list">fotosTT</a>
+                        </li>
+        
+                        <% if (locals.isLogged) { %>    
+                            <li class="navBar-lista"><a href="/users/userProfile">
+                                <img src="/img/avatar/<%= locals.userLogged.image %>" class="avatar"><%= locals.userLogged.first_name +' '+  locals.userLogged.last_name %></a>
+                            </li>
+                            <li class="navBar-lista">
+                                <a href="/users/logout">SALIDA</a>
+                            </li>
+                        <% }else { %> 
+                            <li class="navBar-lista">
+                                <a href="/users/register">REGISTER</a>
+                            </li>
+                            <li class="navBar-lista">
+                                <a href="/users/login">METETE POR ACA</a>
+                            </li>
+                            <% } %> 
+                            <li class="navBar-lista">
+                                <a href="/product/productCart">CARRITO</a>
+                            </li>
+                    </ul>
+                </div>
+         -->
+        
+            </section>  
+            <!-- <div class="">
+                <img src="/img/index/banner.png" class="img-banner">
+            </div> -->
+            <script src="/js/header.js"></script>
+        
+        </header>
+        <section>
+            <img src="/images/img-home-banner.jpg" width="360" alt="Banner de ofertas">
+        </section>
+        <main> <%- include('./parcial/header.ejs') %>
+            <!-- Sedan -->
+            <!-- <div class="">
+                <img src="/img/matrix.png" class="img-banner">
+            </div>  -->
+            <div class="content-servicios">
+                <div class="content-servicios__div">           
+                    <!-- <i class="fa fa-users ico"></i> -->
+                    <h2>¿QUIEN SOY?</h2>
+                    <p class="parrafo">Me llamo Mauro y soy un desarrollador web con experiencia. Soy autodidacta e innovador, y siempre estoy buscando nuevas formas de aprender y crecer profesionalmente.
+        
+                        Me gradué de un curso de desarrollador full stack de 8 meses en Digital House, donde aprendí los fundamentos del desarrollo web, incluyendo HTML, CSS, JavaScript, React, Node.js y MongoDB.
+                        
+                        Actualmente tengo un nivel avanzado de inglés, lo que me permite comunicarme y trabajar con clientes y colegas de todo el mundo.
+                        
+                        Mis intereses personales incluyen la tecnología, el fútbol, la música, la política y la economía. <br>Estoy seguro de que puedo aportar un valor significativo a su empresa. Le agradecería la oportunidad de discutir mis habilidades y experiencia en más detalle.</p>
+                    <!-- <a href="/"><i class="fa fa-angle-right"></i> Conoceme</a> -->
+                </div>
+            
+                <section class="imgsproy">
+                    <div class="titulo-proyectos">PROYECTOS</div>
+                    <div class="contenedor-proy2">
+                        <div class="titulos_text">"CONCECIONARIA"</div>
+                        <div class="textproyect2">Como parte de un curso de desarrollo full stack, realicé este proyecto en equipo. El objetivo era crear un sitio web para una concesionaria de autos. La primera imagen muestra la página principal del sitio, que se desarrolló principalmente con Express.js. La segunda imagen muestra el panel de control, que se desarrolló con React.</div>
+                        <div lass="textproyect2">El proyecto será un éxito y el sitio web se pondrá en funcionamiento con éxito. El sitio web será un éxito entre los clientes y ayudará a aumentar las ventas de la concesionaria.</div>
+                    <div class="imgproy3">
+                        <img src="/img/concecionaria.png"  alt="proyect">
+                    </div>
+                        <div class="imgproy4">
+                          
+                        <img src="/img/concecionariaR.png"  alt="proyect">
+                    </div>
+                    </div>
+                    <div class="contenedor-proy">
+                        <div class="titulos_text">"MERCADO LIEBRE"</div>
+                    <div class="textproyect">Este es un proyecto que realicé con el objetivo de evaluar mi nivel de JavaScript. Mi idea era imitar un sitio web como Mercado Libre. Espero que les guste. <br>
+                        El proyecto fue un éxito y me ayudó a mejorar mi nivel de JavaScript. Estoy satisfecho con el resultado y espero que les guste.</div>
+                    <div class="imgproy">
+                        <img src="/img/mercadolie.png"  alt="proyect">
+                    </div>
+                    </div>
+                    <div class="contenedor-proy">
+                        <div class="titulos_text">"MOVIES"</div>
+                    <div class="textproyect">Este proyecto consiste en un panel de control de películas desarrollado con React. El panel permite a los usuarios administrar una colección de películas, incluyendo funciones como la adición, edición y eliminación de películas, así como la búsqueda y clasificación de películas.</div>
+                    <div class="imgproy">
+                        <img src="/img/react.png"  alt="proyect">
+                    </div>
+                </div>
+                
+                </section>
+                <div class="content-servicios__div">
+                    <!-- <i class="fa fa-car ico"></i> -->
+                    <h2>HABILIDADES</h2>
+                    
+                    <p class="parrafo">JAVASCRIPT - NODE.JS - EXPRESS - HTML - CSS - SQL - REACT - API  REST - MVC - GIT - EXCEL</p>
+                    <!-- <a href="/product/list"><i class="fa fa-angle-right"></i> Ver modelos</a> -->
+                    <div class="iconosHabilidades">
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-react"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-solid fa-database"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <img src="/img/matrix.png" class="img-banner">
+            </div> 
+        
+            <!-- <h2 class="h2">Proyectos Destacados</h2>
+            <section class="content-section">   
+                <% productos.forEach(producto=> { %> 
+                    <a href="/product/list/<%= producto.id_product %>">
+                        <article class="content-section-article">
+                                    <div class="div__img-producto">
+                                        <img src="/img/products/<%= producto.image %>" alt="Imagen" class="img-producto">
+                                    </div>
+                                    <div class="content-detalle">
+                                        <h4 class="image-decription__name"><%= producto.name %></h4>
+                                        <h4 class="image-decription__colors"><%= producto.colors %></h4>
+                                        <h4 class="image-decription__precio"><b>$<%= producto.price  %></b></h4>
+                                    </div>
+                                </article>
+                            </a>
+            <% }) %>
+            </section> -->
+        </main>
+        <footer>
+            <div class="content-servicios__div-footer">
+                <i class="fa fa-globe ico"></i>
+                <h3>CONTACTO</h3>
+                <p class="direccion">Cuarta Sección, Ciudad de Mendoza, Argentina</p>
+                <p>email: maurosanchezc94@gmail.com</p>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878895347!2d-58.38375908524316!3d-34.603734465005004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1678333330051!5m2!1ses!2sar" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <section class="bajoFooter">
+            <ul class="wrapper">
+                <li class="icon linkedin">
+                    <span class="tooltip">Linkedin</span>
+                    <span><a href="https://www.linkedin.com/in/mauro-sanchez-camps-916879275//" target="_blank"><i class="fa-brands fa-linkedin"></i></span>
+                  </li>
+                  <li class="icon github">
+                    <span class="tooltip">Github</span>
+                    <span><a href="https://github.com/MauroSanchezCamps31/" target="_blank"><i class="fa-brands fa-github"></i></span>
+                  </li>
+                  <li class="icon facebook">
+                    <span class="tooltip">Facebook</span>
+                    <span><a href="https://www.facebook.com/mauro.sanchezcamps/" target="_blank"><i class="fab fa-facebook-f"></i></a></span>
+                  </li>
+                  <li class="icon whatsapp">
+                    <span class="tooltip">Whatsapp</span>
+                    <span><a href="https://wa.link/9p1ivv/" target="_blank"><i class="fab fa-whatsapp"></i></a></span>
+                  </li>
+                  <li class="icon instagram">
+                    <span class="tooltip">Instagram</span>
+                    <span><a href="https://www.instagram.com/mausc31/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+                  </li>
+                
+         </ul>
+            </div>
+        </section>
+            <div class="div-footer-derechos">
+                <button class="button-footer">
+                    <div class="text">
+                        <span>Volver</span>
+                        <span>arriba</span>
+                    </div>
+                    <div class="clone">
+                        <span>Volver</span>
+                        <span>arriba</span>
+                    </div>
+                    
+                    <!-- <svg width="20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg> -->
+                </button>
+                <p class="copy-footer">- 2023 Todos los derechos reservados - "El objetivo es sentirse bien"</p>
+                <span class="copy-footer">
+                    Pagina Web realizada por 
+                    <span class="creators">
+                          <p><a href="https://github.com/MauroSC10">~ Mauro Sanchez Camps</a></p> 
+                    </span>
+                </span>
+                <script src="/js/footer.js"></script>
+            </div>
+        </footer>
+    </body>
+</html>
