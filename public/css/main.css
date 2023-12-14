@@ -184,10 +184,13 @@ h2{
 }
 
 .imgsproy{
-    max-width: 55%;
-    border-radius: 2.5%;
-    box-shadow: 0 0 10px 2px rgba(15, 185, 21, 0.989);
-    background-color: #010c05
+    width: 85%;
+    height: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .imgsproy:hover{
@@ -211,18 +214,34 @@ text-decoration:dashed;
 }
 
  
-.contenedor-proy{
+.contenedor-proyB{
     color: #fcfdfd;
     border-radius: 2.5%;
     box-shadow: 0 0 20px 5px rgba(15, 185, 21, 0.989);
     background-color: #010c05;
     overflow: hidden;
-    margin: 35px;
-    
+    margin: 5px;
+    float: left;
+    width: 45%;
+   
+}
+.contenedor-proyB:hover {
+    transform: scale(1.08);
+
+}
+.contenedor-proyA{
+    color: #fcfdfd;
+    border-radius: 2.5%;
+    box-shadow: 0 0 20px 5px rgba(15, 185, 21, 0.989);
+    background-color: #010c05;
+    overflow: hidden;
+    margin: 5px;
+    float: right;
+    width: 45%;
    
 }
 
-.contenedor-proy:hover {
+.contenedor-proyA:hover {
     transform: scale(1.08);
 
 }
@@ -233,6 +252,7 @@ text-decoration:dashed;
     background-color: #010c05;
     overflow: hidden;
     margin: 35px;
+    
 }
 .contenedor-proy2:hover {
     transform: scale(1.08);
@@ -282,7 +302,7 @@ text-decoration:dashed;
     color: #ffffff;
     float: left;
     width: 50%;
-    margin-top: 20%;
+    margin-top: 5%;
 
     padding: 10px;
     padding-left: 25px;
@@ -301,9 +321,9 @@ text-decoration:dashed;
    
     margin-top: 15px;
     margin-bottom: 8px;
-    border-bottom: 3px solid #082200;
+    border-bottom: 3px solid rgba(15, 185, 21, 0.989);
     padding-bottom: 15px;
-    
+    text-align: center;
 
 
 }
