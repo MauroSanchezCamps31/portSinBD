@@ -10,6 +10,7 @@
         <!-- Estilos -->
         <link href="/css/header.css" rel="stylesheet">
         <link href="/css/footer.css" rel="stylesheet">
+        <link href="/css/main.css" rel="stylesheet">
         <title>Mauro Sanchez Camps</title>
     </head>
     <body>
@@ -48,30 +49,30 @@
         
                 <!-- <div id="content-navBar">
                     <ul class="navBar">
-                        <% if (locals.isLogged && locals.userLogged.id_category===1) { %>  
+                        
                         <li class="navBar-lista">
                             <a href="/product/create">Aguante la birra</a>
                         </li>
-                        <% } %> 
+                        
                         <li class="navBar-lista">
                             <a href="/product/list">fotosTT</a>
                         </li>
         
-                        <% if (locals.isLogged) { %>    
+                          
                             <li class="navBar-lista"><a href="/users/userProfile">
-                                <img src="/img/avatar/<%= locals.userLogged.image %>" class="avatar"><%= locals.userLogged.first_name +' '+  locals.userLogged.last_name %></a>
+                                <img src="/img/avatar/" class="avatar"></a>
                             </li>
                             <li class="navBar-lista">
                                 <a href="/users/logout">SALIDA</a>
                             </li>
-                        <% }else { %> 
+                       
                             <li class="navBar-lista">
                                 <a href="/users/register">REGISTER</a>
                             </li>
                             <li class="navBar-lista">
                                 <a href="/users/login">METETE POR ACA</a>
                             </li>
-                            <% } %> 
+                       
                             <li class="navBar-lista">
                                 <a href="/product/productCart">CARRITO</a>
                             </li>
@@ -80,20 +81,13 @@
          -->
         
             </section>  
-            <!-- <div class="">
-                <img src="/img/index/banner.png" class="img-banner">
-            </div> -->
+           
             <script src="/js/header.js"></script>
         
         </header>
-        <section>
-            <img src="/images/img-home-banner.jpg" width="360" alt="Banner de ofertas">
-        </section>
-        <main> <%- include('./parcial/header.ejs') %>
-            <!-- Sedan -->
-            <!-- <div class="">
-                <img src="/img/matrix.png" class="img-banner">
-            </div>  -->
+        
+        <main> 
+            
             <div class="content-servicios">
                 <div class="content-servicios__div">           
                     <!-- <i class="fa fa-users ico"></i> -->
@@ -107,7 +101,7 @@
                         Mis intereses personales incluyen la tecnología, el fútbol, la música, la política y la economía. <br>Estoy seguro de que puedo aportar un valor significativo a su empresa. Le agradecería la oportunidad de discutir mis habilidades y experiencia en más detalle.</p>
                     <!-- <a href="/"><i class="fa fa-angle-right"></i> Conoceme</a> -->
                 </div>
-            
+            </div>
                 <section class="imgsproy">
                     <div class="titulo-proyectos">PROYECTOS</div>
                     <div class="contenedor-proy2">
@@ -162,20 +156,13 @@
         
             <!-- <h2 class="h2">Proyectos Destacados</h2>
             <section class="content-section">   
-                <% productos.forEach(producto=> { %> 
-                    <a href="/product/list/<%= producto.id_product %>">
+            
                         <article class="content-section-article">
-                                    <div class="div__img-producto">
-                                        <img src="/img/products/<%= producto.image %>" alt="Imagen" class="img-producto">
-                                    </div>
-                                    <div class="content-detalle">
-                                        <h4 class="image-decription__name"><%= producto.name %></h4>
-                                        <h4 class="image-decription__colors"><%= producto.colors %></h4>
-                                        <h4 class="image-decription__precio"><b>$<%= producto.price  %></b></h4>
+                                    <div class="div__img-produ></h4>
                                     </div>
                                 </article>
                             </a>
-            <% }) %>
+           
             </section> -->
         </main>
         <footer>
